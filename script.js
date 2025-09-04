@@ -6,15 +6,15 @@ let parouimpar
 num1 = Number(window.prompt("Digite aqui o primeiro numero"));
 num2 = Number(window.prompt("Digite o segundo numero"));
 
-resultado = num1 + num2;
+resultado = num1 * num2;
 
 
 parouimpar = resultado % 2;
 
 if(parouimpar == 0) {
-    alert("O número " + resultado + "e par"); 
+    alert("O número " + resultado + " e par"); 
 } else {
-    alert("O número " + resultado + "e impar")
+    alert("O número " + resultado + " e impar")
 
 }
 
